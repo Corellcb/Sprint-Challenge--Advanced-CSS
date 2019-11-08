@@ -163,10 +163,10 @@ p {
 .nav-header {
   background: #F6F6F6;
   border: #F1F1F1;
-  text-align: center;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 1% 0;
 }
 .nav-header h1 {
@@ -177,7 +177,7 @@ p {
   width: 40%;
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   padding-top: 0.5%;
 }
 .nav-header nav a {
