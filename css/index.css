@@ -273,6 +273,12 @@ footer {
   border-radius: 5px;
   width: 25%;
   padding: 2% 0;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #f4f4f4;
+  color: #23293B;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
