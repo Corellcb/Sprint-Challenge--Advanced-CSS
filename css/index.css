@@ -160,6 +160,12 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+}
 .nav-header {
   background: #F6F6F6;
   border: #F1F1F1;
@@ -184,6 +190,12 @@ p {
   text-decoration: none;
   color: #454A59;
   font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .nav-header nav {
+    width: 80%;
+    padding: 1% 0;
+  }
 }
 footer {
   color: #22283B;
@@ -211,6 +223,11 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images img {
+    width: 100%;
+  }
 }
 .home .visit-planets {
   padding: 15px;
